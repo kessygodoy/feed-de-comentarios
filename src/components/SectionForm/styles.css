@@ -1,0 +1,15 @@
+
+form{
+
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, button{
+    margin-bottom: 1rem;
+}
+hr{
+    width: 100%;
+}
+#comment{height: 100px;}
