@@ -20,7 +20,7 @@ function App() {
           key={comment.id}
           email={comment.email}
           comment={comment.comment}  
-          date={comment.date.getDate()}
+          date={comment.date.toLocaleDateString()}
         />
       ))):
         <h4>Nenhum comentário para mostrar...</h4>

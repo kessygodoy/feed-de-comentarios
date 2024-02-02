@@ -12,4 +12,6 @@ input, button{
 hr{
     width: 100%;
 }
-#comment{height: 100px;}
+#comment{height: 100px;
+max-width: 295px;
+min-width: 295px;}
